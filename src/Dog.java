@@ -1,6 +1,7 @@
 public class Dog extends Animal implements ICanEat{
     public Dog (String name, double weight) {
         this.name = name;
+        this.weight = weight;
     }
 
     @Override

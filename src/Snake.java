@@ -1,4 +1,4 @@
-public class Snake extends Animal {
+public class Snake extends Animal implements ICanEat{
     public Snake (String name) {
         this.name = name;
     }
